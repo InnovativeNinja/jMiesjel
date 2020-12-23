@@ -16,7 +16,8 @@ The game is played between 2-6 players, according to following ruleset.
  * All players start with 25 points.
  
  ### Gameplay
-  * The game consists of 5 rounds. 
+  * Each session consists of five rounds
+  * The game ends once one player's score is down to exactly 0, see scoring.
  
  #### Progression
   * The starting player (depending on the round) initiates the round by playing any one of the remaining cards owned. There is no restriction on which cards can/must be played first.
@@ -30,6 +31,13 @@ The game is played between 2-6 players, according to following ruleset.
   * The round is won by the player who played the highest rank that matches the round's starting suit, unless a higher rank of a trump card was played.
   * If the players still hold one or more cards, a next round is played
   * The session ends when all players have exhausted their cards
+  
+  #### Scoring
+   * For each round won the player's score is subtracted by 1 point, unless the trump suit was Spades, then all scores and penalties are multiplied by 2
+   * If a player scored no point in the entire session, the player receives a penalty of +5. (Again, if the trump suit was Spades, the player receives a +10 penalty)
+   * The scoring is updated when the session has ended
+   * If a player's score is exactly 0 points, the game is won by that player.
+   * If more than one player ends up at exactly 0 points, the session is voided, no score is calcualted and a new session starts with the scoring set to the score before the session that resulted in the would-be draw.
   
   ### Considerations
    * The optimum amount of players is either 3 or 4, as the ruleset can potentionally leave the game unbounded.
